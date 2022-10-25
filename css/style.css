@@ -53,3 +53,25 @@ div {
     background-color: rgb(255, 255, 255);
     text-align: center;
 }
+#bottons {
+    text-align: left;
+    margin-left: 3%;
+
+}
+#botton-task, #botton-section{
+    font-size: 18px;
+    border-radius: 7px;
+    padding: 0px 7px;
+    cursor: pointer;
+    
+}
+
+
+#botton-task {
+    background-color: #1C90FF;
+    color: white;
+}
+#botton-section{
+    color: #8F8897;
+    background-color: white;
+}
