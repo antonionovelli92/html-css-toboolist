@@ -110,3 +110,12 @@ li{
     margin-bottom: 18px;
 
 }
+.verde {
+    color: green;
+    background-color: white;
+    font-size: 15px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: solid;
+}
