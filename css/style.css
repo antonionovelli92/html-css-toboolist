@@ -45,13 +45,15 @@ div {
 
 #card {
     margin-top: 32px;
+    margin-bottom: 30px;
     padding: 8px;
     width: 700px;
-    height: 600px;
+    height: 700px;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     text-align: center;
+
 }
 #bottons {
     text-align: left;
@@ -100,6 +102,7 @@ div {
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 25px;
+    /* display: inline-block; */
 }
 span{
     font-size: 8px;
@@ -127,4 +130,38 @@ li{
     width: 50px;
     border-radius: 50%;
     border: solid;
+}
+/* colori etichette */
+#editoriale{
+    background-color: #1C90FF;
+    
+    
+}
+#goals{
+    background-color: purple;
+}
+#recruting{
+    background-color: green;
+}
+#mobile, #editorial{
+    background-color: orange;
+}
+#website{
+    background-color: pink;
+}
+#sales {
+    background-color: greenyellow;
+}
+
+
+.etichetta {
+    font-size: 15px;
+    height: 38px;
+    width: 37px;
+    border-radius: 41%;
+    border: solid;
+    padding: 4px 5px;
+    color: white;
+    /* display: inline; */
+    
 }
