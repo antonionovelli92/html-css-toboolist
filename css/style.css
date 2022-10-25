@@ -156,8 +156,8 @@ li{
 
 .etichetta {
     font-size: 15px;
-    height: 38px;
-    width: 37px;
+    height: 40px;
+    width: 40px;
     border-radius: 41%;
     border: solid;
     padding: 4px 5px;
@@ -165,3 +165,4 @@ li{
     /* display: inline; */
     
 }
+
