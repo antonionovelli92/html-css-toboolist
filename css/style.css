@@ -58,6 +58,7 @@ div {
 #bottons {
     text-align: left;
     margin-left: 3%;
+    
     /* border-style: solid;
     border-bottom: 2px;
     border-color: #8F8897; */
@@ -66,9 +67,10 @@ div {
 }
 #botton-task, #botton-section{
     font-size: 18px;
-    border-radius: 7px;
-    padding: 0px 7px;
+    border-radius: 3px;
+    padding: 1px 7px;
     cursor: pointer;
+    border: 1px solid transparent;
     /* border: 1px, solid, gray; */
     
 }
@@ -77,10 +79,12 @@ div {
 #botton-task {
     background-color: #1C90FF;
     color: white;
+    
 }
 #botton-section{
     color: #8F8897;
     background-color: white;
+    border: 1px solid currentColor;
 }
 /* lista */
 #lista{
@@ -114,22 +118,28 @@ li{
 
 }
 .verde {
-    color: green;
-    background-color: white;
-    font-size: 15px;
-    height: 50px;
-    width: 50px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid green;
     border-radius: 50%;
-    border: solid;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 15px;
+    vertical-align: middle;
+    text-align: center;
+    color: green;
 }
 .rosso {
-    color: red;
-    background-color: white;
-    font-size: 15px;
-    height: 50px;
-    width: 50px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid red;
     border-radius: 50%;
-    border: solid;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 15px;
+    vertical-align: middle;
+    text-align: center;
+    color: red;
 }
 /* colori etichette */
 #editoriale{
@@ -155,13 +165,8 @@ li{
 
 
 .etichetta {
-    font-size: 15px;
-    height: 40px;
-    width: 40px;
-    border-radius: 41%;
-    border: solid;
-    padding: 4px 5px;
-    color: white;
+   color: white;
+   font-size: 10px;
     /* display: inline; */
     
 }
